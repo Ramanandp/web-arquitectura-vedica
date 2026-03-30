@@ -390,7 +390,7 @@ a {
 }
 
 .contact-page {
-  padding: 78px 0 40px;
+  padding: 64px 0 40px;
 }
 
 .contact-layout {
@@ -401,12 +401,13 @@ a {
 }
 
 .contact-intro h2 {
-  font-family: 'Playfair Display', serif;
-  font-size: 3rem;
-  font-weight: 500;
-  line-height: 1.05;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.6rem;
+  font-weight: 400;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
   margin: 0 0 24px;
-  color: #1f1a17;
+  color: #111;
 }
 
 .contact-eyebrow {
@@ -421,30 +422,33 @@ a {
 
 .contact-lead {
   margin: 0 0 30px;
-  max-width: 36ch;
+  max-width: 42ch;
   font-size: 1rem;
-  line-height: 1.9;
-  color: #4a433d;
+  line-height: 1.8;
+  color: #4a4a4a;
 }
 
 .contact-highlight {
-  background: linear-gradient(180deg, #efe5d2 0%, #e8dcc7 100%);
-  border: 1px solid #d8c9ae;
-  border-radius: 18px;
+  background: linear-gradient(180deg, #f1e8d8 0%, #e9ddc7 100%);
+  border: 1px solid #d8cdb9;
+  border-radius: 12px;
   padding: 24px 26px;
   box-shadow: 0 18px 45px rgba(101, 74, 31, 0.08);
 }
 
 .contact-highlight h3 {
   margin: 0 0 10px;
-  font-size: 1.05rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
   color: #2c2c2c;
 }
 
 .contact-highlight p {
   margin: 0;
   max-width: 34ch;
-  color: #4f4942;
+  color: #5a5a5a;
+  line-height: 1.8;
 }
 
 .contact-cards {
@@ -455,7 +459,7 @@ a {
 .contact-card {
   background: #fffdf9;
   border: 1px solid #ddd1bc;
-  border-radius: 20px;
+  border-radius: 12px;
   padding: 26px 28px;
   box-shadow: 0 18px 40px rgba(74, 53, 20, 0.06);
 }
@@ -472,17 +476,19 @@ a {
 
 .contact-card h3 {
   margin: 0 0 18px;
-  font-size: 1.45rem;
-  line-height: 1.2;
-  color: #201c19;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 500;
+  line-height: 1.35;
+  color: #2c2c2c;
 }
 
 .contact-card a {
   display: block;
   margin-bottom: 10px;
   font-family: 'Inter', sans-serif;
-  font-size: 1rem;
-  color: #4f4942;
+  font-size: 0.95rem;
+  color: #5a5a5a;
   transition: color 0.2s ease;
 }
 
@@ -501,7 +507,7 @@ a {
   }
 
   .contact-intro h2 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
   }
 
   .contact-lead,
@@ -569,7 +575,7 @@ a {
   }
 
   .contact-intro h2 {
-    font-size: 2rem;
+    font-size: 1.95rem;
   }
 
 .contact-card {
@@ -578,7 +584,7 @@ a {
 }
 
 .research-page {
-  padding: 44px 0 26px;
+  padding: 54px 0 26px;
 }
 
 .research-hero {
@@ -634,14 +640,15 @@ a {
   z-index: 1;
   margin: 0;
   max-width: 33ch;
-  font-family: 'Playfair Display', serif;
-  font-size: 1.55rem;
-  line-height: 1.55;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.35rem;
+  font-weight: 400;
+  line-height: 1.7;
   color: rgba(255, 255, 255, 0.92);
 }
 
 .research-body {
-  padding: 76px 34px 40px;
+  padding: 68px 34px 40px;
 }
 
 .research-copy {
@@ -654,10 +661,11 @@ a {
 .research-copy p {
   margin: 0;
   max-width: 46ch;
-  font-family: 'Playfair Display', serif;
-  font-size: 2rem;
-  line-height: 1.35;
-  color: #1e1a17;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 400;
+  line-height: 1.95;
+  color: #222;
 }
 
 .research-detail {
@@ -681,8 +689,8 @@ a {
   margin: 0 0 14px;
   max-width: 26ch;
   font-size: 0.9rem;
-  line-height: 1.65;
-  color: #403b36;
+  line-height: 1.8;
+  color: #5a5a5a;
 }
 
 .research-notes p:last-child {
@@ -703,7 +711,7 @@ a {
 
   .research-findings p {
     max-width: none;
-    font-size: 1.3rem;
+    font-size: 1.15rem;
   }
 
   .research-body {
@@ -735,11 +743,12 @@ a {
   }
 
   .research-findings p {
-    font-size: 1.08rem;
+    font-size: 1rem;
   }
 
   .research-copy p {
-    font-size: 1.55rem;
+    font-size: 1.02rem;
+    line-height: 1.85;
   }
 }
 
