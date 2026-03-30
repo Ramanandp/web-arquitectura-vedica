@@ -1275,7 +1275,7 @@ a {
   display: grid;
   grid-template-columns: minmax(200px, 250px) minmax(320px, 1fr);
   gap: 40px;
-  align-items: start;
+  align-items: center;
   padding-bottom: 22px;
   border-bottom: 1px solid #d8cdb9;
 }
@@ -1308,6 +1308,7 @@ a {
   font-size: 0.98rem;
   line-height: 1.95;
   color: #4a4a4a;
+  text-align: justify;
 }
 
 @media (max-width: 900px) {
