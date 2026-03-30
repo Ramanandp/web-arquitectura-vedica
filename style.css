@@ -742,3 +742,353 @@ a {
     font-size: 1.55rem;
   }
 }
+
+.services-page {
+  padding: 64px 0 28px;
+}
+
+.services-layout {
+  display: grid;
+  gap: 52px;
+}
+
+.services-copy {
+  max-width: 900px;
+}
+
+.services-copy h2 {
+  margin: 0 0 28px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.6rem;
+  font-weight: 400;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+
+.services-list {
+  margin: 0 0 28px 22px;
+  padding: 0;
+}
+
+.services-list li {
+  margin-bottom: 10px;
+  padding-left: 6px;
+  max-width: 76ch;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #222;
+}
+
+.services-closing {
+  margin: 0 0 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 500;
+  line-height: 1.75;
+  color: #222;
+}
+
+.services-support {
+  margin: 0 0 30px;
+  max-width: 62ch;
+  color: #4a4a4a;
+  line-height: 1.8;
+}
+
+.services-contacts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.services-contact h3 {
+  margin: 0 0 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #2c2c2c;
+}
+
+.services-contact p {
+  margin: 0 0 6px;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #5a5a5a;
+}
+
+.services-contact a {
+  color: #5a5a5a;
+}
+
+.services-contact a:hover {
+  color: #8b6a35;
+}
+
+.services-showcase {
+  margin-top: 8px;
+}
+
+.showcase-room {
+  position: relative;
+  height: 560px;
+  overflow: hidden;
+  border: 1px solid #dfd7ca;
+  background:
+    linear-gradient(180deg, #ffffff 0%, #f4f0ea 72%, #ece5db 100%);
+  box-shadow: 0 26px 60px rgba(76, 60, 35, 0.08);
+}
+
+.room-wall {
+  position: absolute;
+  top: 0;
+  bottom: 118px;
+  width: 18%;
+  background:
+    repeating-linear-gradient(
+      90deg,
+      rgba(210, 205, 198, 0.2) 0,
+      rgba(210, 205, 198, 0.2) 2px,
+      transparent 2px,
+      transparent 32px
+    ),
+    linear-gradient(180deg, #fffdfa 0%, #f3efea 100%);
+}
+
+.room-wall-left {
+  left: 0;
+}
+
+.room-wall-right {
+  right: 0;
+}
+
+.room-window {
+  position: absolute;
+  left: 5.5%;
+  top: 80px;
+  width: 14%;
+  height: 250px;
+  border: 8px solid #ffffff;
+  background:
+    linear-gradient(180deg, rgba(220, 232, 243, 0.95), rgba(255, 255, 255, 0.98));
+  box-shadow: 0 8px 24px rgba(142, 157, 176, 0.16);
+}
+
+.room-window::before,
+.room-window::after {
+  content: "";
+  position: absolute;
+  background: rgba(232, 236, 240, 0.95);
+}
+
+.room-window::before {
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 4px;
+  transform: translateY(-50%);
+}
+
+.room-window::after {
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 4px;
+  transform: translateX(-50%);
+}
+
+.room-bathtub {
+  position: absolute;
+  left: 4%;
+  bottom: 88px;
+  width: 28%;
+  height: 124px;
+  background: linear-gradient(180deg, #ffffff 0%, #f5f3f0 100%);
+  border-radius: 46% 46% 18% 18%;
+  box-shadow: inset 0 -8px 20px rgba(206, 200, 192, 0.45);
+}
+
+.room-bathtub::before {
+  content: "";
+  position: absolute;
+  left: 26px;
+  top: -16px;
+  width: 10px;
+  height: 38px;
+  border-radius: 10px;
+  background: #333b46;
+  box-shadow: 16px 6px 0 -3px #333b46;
+}
+
+.room-vanity {
+  position: absolute;
+  left: 43%;
+  bottom: 84px;
+  width: 26%;
+  height: 168px;
+  background:
+    linear-gradient(180deg, #d6c5ad 0 22px, #c9b49a 22px 100%);
+  border-radius: 4px;
+  box-shadow: 0 18px 28px rgba(98, 81, 54, 0.14);
+}
+
+.room-vanity::before,
+.room-vanity::after {
+  content: "";
+  position: absolute;
+  top: 54px;
+  width: 44%;
+  height: 92px;
+  border: 1px solid rgba(133, 108, 72, 0.28);
+  background: rgba(200, 178, 148, 0.16);
+}
+
+.room-vanity::before {
+  left: 4%;
+}
+
+.room-vanity::after {
+  right: 4%;
+}
+
+.room-mirror {
+  position: absolute;
+  top: 96px;
+  width: 14%;
+  height: 168px;
+  border: 8px solid #ffffff;
+  background: linear-gradient(180deg, #f8f8f6 0%, #ece8e1 100%);
+  box-shadow: 0 8px 20px rgba(160, 152, 139, 0.18);
+}
+
+.room-mirror-left {
+  left: 45.5%;
+}
+
+.room-mirror-right {
+  left: 61.5%;
+}
+
+.room-lamp {
+  position: absolute;
+  top: 62px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #252525;
+  box-shadow: 0 0 0 8px rgba(255, 239, 193, 0.3);
+}
+
+.room-lamp::before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: -30px;
+  width: 2px;
+  height: 30px;
+  background: #2f3135;
+}
+
+.room-lamp-left {
+  left: 49%;
+}
+
+.room-lamp-right {
+  left: 65%;
+}
+
+.room-shelf {
+  position: absolute;
+  left: 29%;
+  bottom: 122px;
+  width: 10%;
+  height: 164px;
+  border: 8px solid #ffffff;
+  background:
+    linear-gradient(180deg, transparent 24%, rgba(228, 222, 214, 0.9) 24% 26%, transparent 26% 50%, rgba(228, 222, 214, 0.9) 50% 52%, transparent 52% 76%, rgba(228, 222, 214, 0.9) 76% 78%, transparent 78%);
+}
+
+.room-floor {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 118px;
+  background:
+    linear-gradient(180deg, rgba(240, 233, 223, 0.36), rgba(229, 220, 207, 0.85)),
+    repeating-linear-gradient(
+      90deg,
+      rgba(202, 183, 158, 0.65) 0,
+      rgba(202, 183, 158, 0.65) 18px,
+      rgba(218, 201, 180, 0.68) 18px,
+      rgba(218, 201, 180, 0.68) 36px
+    );
+}
+
+@media (max-width: 980px) {
+  .services-contacts {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .showcase-room {
+    height: 440px;
+  }
+}
+
+@media (max-width: 720px) {
+  .services-page {
+    padding-top: 52px;
+  }
+
+  .services-copy h2 {
+    font-size: 2.1rem;
+  }
+
+  .services-list {
+    margin-left: 18px;
+  }
+
+  .showcase-room {
+    height: 320px;
+  }
+
+  .room-wall {
+    bottom: 72px;
+  }
+
+  .room-window {
+    top: 44px;
+    height: 150px;
+  }
+
+  .room-bathtub {
+    bottom: 48px;
+    height: 82px;
+  }
+
+  .room-bathtub::before {
+    top: -10px;
+    height: 24px;
+  }
+
+  .room-vanity {
+    bottom: 46px;
+    height: 104px;
+  }
+
+  .room-mirror {
+    top: 54px;
+    height: 104px;
+  }
+
+  .room-shelf {
+    bottom: 72px;
+    height: 104px;
+  }
+
+  .room-floor {
+    height: 72px;
+  }
+}
