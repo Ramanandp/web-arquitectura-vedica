@@ -277,6 +277,10 @@ a {
 }
 
 .contact-line {
+  display: grid;
+  grid-template-columns: auto 16px minmax(190px, 1fr);
+  align-items: baseline;
+  column-gap: 8px;
   font-family: 'Inter', sans-serif;
   font-size: 0.9rem;
   margin: 0;
@@ -284,12 +288,17 @@ a {
 }
 
 .contact-line span {
-  margin: 0 6px;
+  margin: 0;
   color: #999;
+  text-align: center;
 }
 
 .contact-line a {
   color: #5a5a5a;
+}
+
+.contact-line a:last-child {
+  white-space: nowrap;
 }
 
 .contact-line a:hover {
@@ -568,6 +577,10 @@ a {
   .footer-grid {
     grid-template-columns: 1fr;
     gap: 30px;
+  }
+
+  .contact-line {
+    grid-template-columns: auto 16px minmax(0, 1fr);
   }
 
   .contact-page {
